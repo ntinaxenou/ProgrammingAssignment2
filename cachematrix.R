@@ -9,6 +9,9 @@
 ##  get the value of the matrix
 ##  set the value of the inverse
 ##  get the value of the inverse
+##  
+##  makecachematrix is a wrapper for caching the data and providing some
+## 'methods' to operate on the cached data
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
